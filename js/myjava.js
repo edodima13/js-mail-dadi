@@ -15,4 +15,7 @@ const email = prompt("inserisci la tua email")
 //fare una lista di email da accettare
 const emailRight = ("tizio@gmail.com","caio@hotmail.it","sempronio@libero.it")
  
-//stampare un messaggio che informa che i dati inseriti sono corretti
+//stampare un messaggio che informa che i dati inseriti non sono corretti
+if ( email != emailRight ) {
+    alert("la tua email non è valida riprova")
+}
