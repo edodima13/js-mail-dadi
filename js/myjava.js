@@ -13,4 +13,6 @@ Stabilire il vincitore, in base a chi ha il numero più alto.  (e se pari?)*/
 const email = prompt("inserisci la tua email")
 
 //fare una lista di email da accettare
+const emailRight = ("tizio@gmail.com","caio@hotmail.it","sempronio@libero.it")
+ 
 //stampare un messaggio che informa che i dati inseriti sono corretti
